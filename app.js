@@ -21,7 +21,6 @@ var commentRoutes   = require("./routes/comments"),
 
 //CONNECTS A DATABASE OR CREATES IT IF IT DOES NOT EXIST
 mongoose.connect(process.env.DATABASEURL);
-// mongoose.connect("mongodb://bonno:EDFDf3eb9cc0@ds157204.mlab.com:57204/yelpcamp");
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.static(__dirname + "/public"));
 app.set("view engine", "ejs");
