@@ -24,6 +24,7 @@
 * Node.js - JavaScript server environment;
 * Express.js - Node.js framework;
 * MongoDB - NoSQL database;
+* Mlab - Database-as-a-Service for MongoDB (Cloud DB);
 * mongoose - MongoDB object modeling tool;
 * Passport.js - Node.js authenticattion middleware;
 * method-override - to enable PUT and DELETE routes where not supported;
